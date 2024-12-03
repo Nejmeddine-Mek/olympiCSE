@@ -3,10 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>olympiCSE</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
    <!--Main for & ranking Assil || who are we & reg form Nejemeddine || footer & live stream ADEM -->
-   
+   <!--here is the regestration form-->
+
+   <form id="regForm">
+        <h1>Registration Form</h1>
+        <div id="form-group">
+            <div class="field">
+                <label>First Name</label>
+                <input type="text" class="info">
+            </div>
+
+            <div class="field">
+                <label>Last Name</label>
+                <input type="text" class="info">
+            </div>
+
+            <div class="field">
+                <label>Email</label>
+                <input type="email" class="info">
+            </div>
+            <!------------------------------------------------>
+
+            <div class="field">
+                <label>School/Uni</label>
+                <select class="info">
+                    <option>ESI</option>
+                    <option>USTHB</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label>Year</label>
+                <select class="info">
+                    <option>L1/1CP</option>
+                    <option>L2/2CP</option>
+                    <option>L3/1CS</option>
+                    <option>M1/2CS</option>
+                    <option>M2/3CS</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label>Category</label>
+                <select class="info">
+                    <option></option>
+                    <option>Development</option>
+                    <option>Design</option>
+                    <option>Multimedia</option>
+                </select>
+            </div>
+            <!------------------------------------------------>
+            <div class="field">
+                <label>Discipline</label>
+                <select id="disciplineSelect" aria-placeholder="" class="info">
+                    <option value="choose your discipline" selected disabled>choose your discipline</option>
+
+                </select>
+            </div>
+            <div class="field">
+                <label>Useful links</label>
+                <input type="text" class="info">
+            </div>
+        </div>
+        <div class="field" id="motivation">
+            <label>Motivation</label>
+            <textarea name="Motivation" id="motivation" class="info"></textarea>
+        </div>
+        <!-------------------------------------------------------------------------------------->
+        <button type="submit" id="submitBtn" onclick="submitInformation()">Buckle up already</button>
+   </form>
+
+<script src="index.js"></script>
+<!---------------------------------------------------------------------------------------------->
 </body>
 </html>

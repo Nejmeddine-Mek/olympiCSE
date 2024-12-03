@@ -1,0 +1,121 @@
+/*I WILL ADJUST THE FONTS AND BG ASAP*/
+
+body{
+    background-color: black;
+    display: grid;
+    margin: 0;
+}
+
+#regForm{
+    display: grid;
+    justify-content: center;
+    margin: 20px 25px;
+    background:linear-gradient(90deg,rgba(128, 128, 128, 0.501),rgba(128, 128, 128, 0.436) , hsla(0, 0%, 0%, 0.419));
+    height: auto;
+    width: auto;
+    border: solid 2px grey;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(106, 106, 106, 0.482);
+}
+
+#regForm h1{
+    color: white;
+    font-size: 3rem;
+}
+
+#regForm h1{
+    text-align: center;
+    width: 100%;
+}
+
+#regForm #form-group{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+}
+
+.field{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    margin: 30px 30px;
+}
+
+.field input{
+    outline: none;
+    border: solid 1px black;
+    border-radius: 7px;
+    height: 41px;
+    width: 307px;
+    margin: 2px 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.299);
+    padding-left: 5px;
+    padding-right: 0;
+    font-size: 16px;
+}
+
+.field label{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/*REMAINS TO STYLE THE DROPDOWN MENUS I HAVE THERE*/
+.field select{
+    outline: none;
+    border: solid 1px black;
+    border-radius: 7px;
+    height: 45px;
+    width: 314px;
+    margin: 2px 3px;
+    padding-left: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.299);
+    border: none;
+    appearance: none;
+    padding: 0 30px 0 15px;
+}
+
+
+#motivation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#motivation textarea{
+    width: 100%;
+    height: 150px;
+    padding: 7px 7px;
+    resize: none;
+    outline: none;
+    border: solid 1px black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.299);
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+#submitBtn{
+    align-self: center;
+    right: 0;
+    height: 41px;
+    width: 150px;
+    margin-bottom: 50px;
+    justify-self: right;
+    align-self:center;
+    border: solid 1px white;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(0, 2, 7);
+    font-size: 16px;
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.241);
+    transition: all ease-in-out .25s;
+}
+
+#submitBtn:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.368);  
+    width: 160px;
+    cursor: pointer;
+}
+
+
